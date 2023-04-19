@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="tab_text_1"> fragmentVender </string>
+    <string name="tab_text_2"> fragment_activity_Calificar </string>
+    <string name="tab_text_3"> fragment_promocion </string>
+
+
+    <string name="hello_blank_fragment1">Vender </string>
+    <string name="hello_blank_fragment2">Calificar</string>
+    <string name="hello_blank_fragment3">Promocion</string>
+    <string name="title_activity_quienes_somos">Quienes_Somos</string>
+</resources>

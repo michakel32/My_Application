@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentVender">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@color/grey2">
+        <TextView
+            android:layout_width="405dp"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:text="Más Vendido"
+            android:background="#010851"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="normal|bold"/>
+        <ImageView
+            android:id="@+id/Produt1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="155dp" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:text="Mouse $ 90"
+            android:textColor="@color/white"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="280dp"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_marginLeft="240dp"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:text="Teclado $ 30"
+            android:textColor="@color/white"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="280dp"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:textSize="10dp"
+            android:text="Kit de herramientas $100"
+            android:textColor="@color/white"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="455dp"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_marginLeft="240dp"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:text="Cable de Red $ 5.00"
+            android:textColor="@color/white"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="455dp"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:textSize="10dp"
+            android:text="Conectores RJ45 $0.75"
+            android:textColor="@color/white"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="615dp"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_marginLeft="240dp"
+            android:layout_height="20dp"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"
+            android:text="Aire Comprimido $9.00"
+            android:textColor="@color/white"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="615dp"/>
+        <ImageView
+            android:id="@+id/Produt2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="155dp"/>
+        <ImageView
+            android:id="@+id/Produt3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="330dp" />
+        <ImageView
+            android:id="@+id/Produt4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="330dp" />
+        <ImageView
+            android:id="@+id/Produt5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="490dp" />
+        <ImageView
+            android:id="@+id/Produt6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="490dp" />
+
+        <TextView
+            android:id="@+id/Cliente1"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="250dp"
+            android:text="Atención al Cliente"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="680dp"/>
+        <TextView
+            android:id="@+id/Acerca1"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:text="Acerca De Nosotros"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="680dp"/>
+    </RelativeLayout>
+</FrameLayout>

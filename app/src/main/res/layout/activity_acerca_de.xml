@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/grey2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_acerca_de">
+    <TextView
+        android:background="#170049"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROYECT ING SST"
+        android:textStyle="normal|bold"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"/>
+    <ImageView
+        android:src="@drawable/logop"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <TextView
+        android:layout_marginTop="220dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textColor="@color/white"
+        android:text=" Somos 4 estudiantes de la Facultad Ciencia  Tecnología, \n Desarrollando una aplicación móvil que permita a los usuarios \n registrado podrá comercializar y comprar
+productos y servicios \n (ropa, accesorios, tazas, servicios de estampados, etc....). \n los cuales serán
+presentados en una interfaz que el usuario \n otorgaría la descripción detallada del producto donde
+\n también como comprador tendrás acceso a la información y \n comunicación entre el vendedor con su
+forma de pago y además \n podrás contar tu experiencia. \n \n "/>
+    <ImageView
+        android:src="@drawable/mega"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="550dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <ImageView
+        android:src="@drawable/ugb"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="550dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+</RelativeLayout>
